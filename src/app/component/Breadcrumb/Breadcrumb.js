@@ -32,7 +32,7 @@ const Breadcrumb = ({ breadcrumdata }) => {
   }, [])
 
   return (
-    <Grid container sx={{padding:"0.1% 2%",border:"1.5px solid #1f4e79"}}>
+    <Grid container sx={{padding:"0% 2%",border:"1.5px solid #1f4e79"}}>
       <Grid item container direction="row">
         <Grid item xs={12} sm={12}>
           <div style={{  display: 'flex',

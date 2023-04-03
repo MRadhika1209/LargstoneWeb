@@ -112,8 +112,8 @@ const Product=()=>{
     const params = useLocation();
     return(
     <div style={{marginBottom:"2%"}}>
-                      <BasicMenu />
-                      {/* <Dropdowns Options={optionvalue} Lables={optionlable}></Dropdowns> */}
+                      {/* <BasicMenu /> */}
+                      <Dropdowns Options={optionvalue} Lables={optionlable}></Dropdowns>
                       <Breadcrumb breadcrumdata={[{ name: "Infratail" },{active:"Facility Management System"} ]} />
                       
                       <Grid container sx={{padding:"1%",}}>

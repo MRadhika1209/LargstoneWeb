@@ -111,8 +111,8 @@ const Service=()=>{
     const [optionlable, setLable] = React.useState([...Lables]);
     return(
         <div>
-                         {/* <Dropdowns Options={optionvalue} Lables={optionlable}></Dropdowns> */}
-                         <BasicMenu/>
+                         <Dropdowns Options={optionvalue} Lables={optionlable}></Dropdowns>
+                         {/* <BasicMenu/> */}
                       <Breadcrumb breadcrumdata={[{ name: "Hospitality" },{active:"Front Office & Booking"} ]} />
 
                         <Grid container sx={{padding:"2% 7%"}}>
